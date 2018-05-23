@@ -2,8 +2,8 @@
 _The official project has been abandoned. This is a replacement._
 
 Add to package.json like so
-```
-"webpack-cleanup-plugin": "https://github.com/lipemat/webpack-cleanup-plugin.git#0.5.2",
+```npm
+yarn add https://github.com/lipemat/webpack-cleanup-plugin.git
 ```
 
 # webpack-cleanup-plugin
