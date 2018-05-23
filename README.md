@@ -1,4 +1,10 @@
-🚨 I don't have the time to follow or update this plugin. If someone wants to the ownership of the npm module please io@gpbl.org, thanks!
+## Forked version which supports Webpack 4
+_The official project has been abandoned. This is a replacement._
+
+Add to package.json like so
+```
+"webpack-cleanup-plugin": "https://github.com/lipemat/webpack-cleanup-plugin.git#v0.5.2",
+```
 
 # webpack-cleanup-plugin
 
