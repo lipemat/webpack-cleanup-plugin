@@ -1,5 +1,5 @@
 {
-  "name": "webpack-cleanup-plugin",
+  "name": "@lipemat/webpack-cleanup-plugin",
   "version": "0.5.3",
   "description": "Plugin for webpack to cleanup extraneous files from the output path directory",
   "main": "./lib/WebpackCleanupPlugin.js",

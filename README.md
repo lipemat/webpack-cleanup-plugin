@@ -1,9 +1,9 @@
 ## Forked version which supports Webpack 4
 _The official project has been abandoned. This is a replacement._
 
-Add to package.json like so
+### Installation
 ```npm
-yarn add https://github.com/lipemat/webpack-cleanup-plugin.git
+yarn add @lipemat/webpack-cleanup-plugin
 ```
 
 # webpack-cleanup-plugin
@@ -13,10 +13,6 @@ from the webpack's output path.
 
 Since it runs when the compile process is finished, it is useful when building
 on production to remove the assets created by previous builds.
-
-```
-npm install webpack-cleanup-plugin --save-dev
-```
 
 [![npm version](https://img.shields.io/npm/v/webpack-cleanup-plugin.svg?style=flat-square)](https://www.npmjs.com/package/webpack-cleanup-plugin)
 [![npm downloads](https://img.shields.io/npm/dm/webpack-cleanup-plugin.svg?style=flat-square)](http://npm-stat.com/charts.html?package=webpack-cleanup-plugin)
@@ -28,17 +24,11 @@ keep files that are not webpack assets.
 
 ## Usage
 
-Install via npm:
-
-```
-npm install webpack-cleanup-plugin --save-dev
-```
-
 Then add the plugin to the `plugins` array in your webpack's config, e.g.:
 
 ```js
 // webpack.config.js
-import WebpackCleanupPlugin from 'webpack-cleanup-plugin';
+import WebpackCleanupPlugin from '@lipemat/@lipemat/webpack-cleanup-plugin';
 const config = {
   output: {
     path: "/my/output/path"
