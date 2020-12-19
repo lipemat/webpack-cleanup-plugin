@@ -16,7 +16,7 @@ class WebpackCleanupPlugin {
 
       compiler.hooks.done.tap( { name: 'WebpackCleanupPlugin' }, (stats) => {
 
-      if (compiler.outputFileSystem.constructor.name !== 'NodeOutputFileSystem') {
+      if ( compiler.outputFileSystem.constructor.name !== 'NodeOutputFileSystem' && compiler.outputFileSystem.constructor.name !== 'Object' ) {
         return;
       }
 
