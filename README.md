@@ -1,4 +1,4 @@
-## Forked version which supports Webpack 4
+## Forked version which supports Webpack 4 & 5
 _The official project has been abandoned. This is a replacement._
 
 ### Installation
