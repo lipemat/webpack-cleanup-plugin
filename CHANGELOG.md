@@ -1,8 +1,8 @@
 # Changelog
 
-## Unreleased
+## [v1.0.0](https://github.com/gpbl/webpack-cleanup-plugin/tree/v1.0.0) (2020-12-19)
 
-* Package updates and cleanup
+* Support Webpack 5
 
 ## [v0.5.1](https://github.com/gpbl/webpack-cleanup-plugin/tree/v0.5.1) (2017-02-27)
 
